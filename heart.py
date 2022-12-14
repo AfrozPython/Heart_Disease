@@ -12,9 +12,6 @@ import streamlit as st
 # loading the saved model
 loaded_model = pickle.load(open('heart.sav', 'rb'))
 
-st.title('Heart Disease Prediction By Using Artificial Intelligence')
-st.text('By Afroz')
-
 # creating a function for Prediction
 
 def diabetes_prediction(input_data):
@@ -41,8 +38,9 @@ def main():
     # getting the input data from the user
     
     
-    title = '<p style="font-family:Lucida Calligraphy; color:Red; font-size: 50px;">Heart Disease Prediction</p>'
+    title = '<p style="font-family:Lucida Calligraphy; color:Red; font-size: 40px;">Heart Disease Prediction By Using Artificial Intelligence</p>'
     st.markdown(title, unsafe_allow_html=True)
+    st.text('By Afroz')
 
    
     # Age
