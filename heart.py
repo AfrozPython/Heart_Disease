@@ -36,7 +36,7 @@ def diabetes_prediction(input_data):
   
 def main():
     
-    #st.markdown(f'<h1 style="color:Brown;font-size:24px;">{"Heart Disease Prediction"}</h1>', unsafe_allow_html=True)
+    #st.markdown(f'<h1 style="color:Brown;font-size:18px;">{"Heart Disease Prediction By Using Artificial Intelligence"}</h1>', unsafe_allow_html=True)
     # getting the input data from the user
     
     
