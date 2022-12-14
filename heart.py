@@ -12,7 +12,8 @@ import streamlit as st
 # loading the saved model
 loaded_model = pickle.load(open('heart.sav', 'rb'))
 
-
+st.title('Heart Disease Prediction By Using Artificial Intelligence')
+st.text('By Afroz')
 
 # creating a function for Prediction
 
