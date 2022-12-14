@@ -40,7 +40,7 @@ def main():
     
     title = '<p style="font-family:Lucida Calligraphy; color:Red; font-size: 40px;">Heart Disease Prediction By Using Artificial Intelligence</p>'
     st.markdown(title, unsafe_allow_html=True)
-    st.text('By Afroz')
+    st.text('Created by Afroz')
 
    
     # Age
